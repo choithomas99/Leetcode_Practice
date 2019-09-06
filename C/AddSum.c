@@ -25,6 +25,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     return NULL;
 }
 int main () {
+    
     int nums[]= {2,7,11,15};
     int returnnum= 49129;
     int *answ=twoSum(nums, 4, 9, &returnnum);
